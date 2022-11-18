@@ -1,6 +1,6 @@
 <?php
 $conn = mysqli_connect(
-  'localhost',
+  '3.39.65.57',
   'root',
   'multi123',
   'car_manage');
@@ -12,6 +12,15 @@ $conn = mysqli_connect(
         <meta charset = "utf-8">
         <title>sql</title>
     </head>
+    <style>
+        td{
+            /* background-color:pink; */
+            padding: 10px;
+            width: 500px;
+            text-align:center;
+            /* text-aline:center; */
+        }
+    </style>
     <body>
         <table border="1">
             <tr>
