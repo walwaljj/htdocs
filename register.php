@@ -36,7 +36,7 @@
             $id = $_POST['id'];
             $pw = $_POST['pw'];
 
-            $conn = mysqli_connect('3.39.65.57','root','multi123','car_manage');
+            $conn = mysqli_connect('localhost','root','multi123','car_manage');
             $sql = "INSERT INTO register values('$id' , '$pw');";
             
             if($result = mysqli_query($conn,$sql)){

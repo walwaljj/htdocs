@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="car_web3.css">
+    <link rel="stylesheet" type="text/css" href="car_web2.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar__logo">
             <i class="fa-solid fa-car"></i>
-            <p>Carmanage_TippingPoint</p>
+            <a href="">Carmanage_TippingPoint</a>
         </div>
     </nav>
     <form action="" method="POST">
@@ -48,5 +48,15 @@
         mysqli_close($conn);
     }
     ?>
+    <footer>
+        &copy; copyright by TippingPoint<br>
+        <i class="fa-solid fa-people-group"></i>&ensp;
+        한소예&ensp;박나현&ensp;박지혜&ensp;유종완&ensp;정수현&ensp;
+        <i class="fa-solid fa-people-group"></i><br>
+        <i class="fa-solid fa-up-right-from-square"></i>
+        <a href="https://github.com/whddhks/TippingPoint" target="_blank" style='color:azure'>GITHUB</a>&emsp;
+        <i class="fa-solid fa-up-right-from-square"></i>
+        <a href="https://www.notion.so/4-Tipping_Point-da6a5db42e9249d392be02ce6166981e" target="_blank" style='color:azure'>NOTION</a>
+    </footer>
 </body>
 </html>
