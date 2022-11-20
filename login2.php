@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c89961a32e.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="car_web2.css">
 </head>
@@ -12,23 +13,22 @@
     <nav class="navbar">
         <div class="navbar__logo">
             <i class="fa-solid fa-car"></i>
-            <a href="">Carmanage_TippingPoint</a>
+            <a href="" id="navbar__logo">Carmanage_TippingPoint</a>
         </div>
     </nav>
     <form action="" method="POST">
         <div class = "inputBox">
             <div class="p">
                 <h3>LOGIN</h3>
-                    <div class="id">
-                        <input type="text" name="id" placeholder="ID" required/><br>
-                    </div>
+                <div class="id">
+                    <input type="text" name="id" placeholder="ID" required/><br>
+                </div>
                 <div class="pw">
-                    <!-- <h4>PW</h4> -->
-                <input type="password" name="pw" placeholder="PASSWORD" required/><br><br>
+                    <input type="password" name="pw" placeholder="PASSWORD" required/><br><br>
                 </div>
                 <input type="submit" name = "login" id="login" value="LOGIN"/>
                 &nbsp;
-                <a href="register.php">SIGNUP</a>
+                <a href="register.php" id="register_page">SIGNUP</a>
             </div>
         </div>
     </form>

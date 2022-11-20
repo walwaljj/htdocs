@@ -34,6 +34,7 @@ $conn = new mysqli($_SERVER, $user, $password, $dbname);
             <li><a href="illegal_elec.php">Elec_illegal</a></li>
             <li><a href="intro.php">intro</a></li>
             <li><a href="extro.php">extro</a></li>
+            <li><a href="login3">login</a></li>
         </ul>
 
         <ul class="navbar__icons">
