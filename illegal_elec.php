@@ -1,5 +1,5 @@
 <?php
-$_SERVER = 'localhost';
+$_SERVER = '3.39.65.57';
 $user = 'root';
 $password = 'multi123';
 $dbname = 'car_manage';
@@ -45,7 +45,7 @@ $conn = new mysqli($_SERVER, $user, $password, $dbname);
         </a>
     </nav>
     <br>
-    <h1 align = center>Elec Illegal Information</h1>
+    <h1 align = center>Non - Elec Illegal Information</h1>
     <br>
     <table id = 'box' width="50%" border="1" align = center >
             <tr>
