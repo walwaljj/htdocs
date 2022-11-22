@@ -1,5 +1,5 @@
 <?php
-$_SERVER = 'localhost';
+$_SERVER = '3.39.65.57';
 $user = 'root';
 $password = 'multi123';
 $dbname = 'car_manage';

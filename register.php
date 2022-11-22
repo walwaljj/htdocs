@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c89961a32e.js" crossorigin="anonymous"></script>
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="car_web3.css">
+    <link rel="stylesheet" type="text/css" href="car_web.css">
 </head>
 <body>
 <nav class="navbar">
@@ -27,8 +27,11 @@
                     <div class="pw">
                         <input type="password" name="pw" placeholder="사용하실 비밀번호를 입력하세요." required/><br><br>
                     </div>
-                &nbsp;
-                <a href="login3.php" id="loc_page">LOGIN</a>
+                    <span>
+                        <input type="submit" name = "login" id="login" value="JOIN!"/>  
+                        &nbsp;
+                        <!-- <a href="login.php" id="loc_page">LOGIN</a> -->
+                    </span>
 
         </div>
     </form>
@@ -37,7 +40,7 @@
             $id = $_POST['id'];
             $pw = $_POST['pw'];
 
-            $conn = mysqli_connect('localhost','root','multi123','car_manage');
+            $conn = mysqli_connect('3.39.65.57','root','multi123','car_manage');
             $sql = "INSERT INTO register values('$id' , '$pw');";
             
             if($result = mysqli_query($conn,$sql)){

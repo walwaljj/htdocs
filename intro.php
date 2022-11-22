@@ -1,5 +1,5 @@
 <?php
-$_SERVER = 'localhost';
+$_SERVER = '3.39.65.57';
 $user = 'root';
 $password = 'multi123';
 $dbname = 'car_manage';
@@ -34,7 +34,6 @@ $conn = new mysqli($_SERVER, $user, $password, $dbname);
             <li><a href="illegal_elec.php">Elec_illegal</a></li>
             <li><a href="intro.php">intro</a></li>
             <li><a href="extro.php">extro</a></li>
-            <li><a href="login3">login</a></li>
         </ul>
 
         <ul class="navbar__icons">

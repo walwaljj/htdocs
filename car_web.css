@@ -78,6 +78,9 @@ h3{
 a{
     text-decoration-line: none;
 }
+#loc_page{
+    color : black;
+}
 #loc_page:visited{
     color : black;
 }

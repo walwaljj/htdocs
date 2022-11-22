@@ -1,6 +1,6 @@
 <?php
 $conn = mysqli_connect(
-  'localhost',
+  '3.39.65.57',
   'root',
   'multi123',
   'car_manage');
